@@ -12,10 +12,10 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <p>Enter your name:</p>
-        <input onChange={textInput} type='text'style={{display:"block"}}/>
+        Enter your name:
         <br/>
-        {text}
+        <input onChange={textInput} type='text'style={{display:"block"}}/>
+        <p>{text}</p>
     </div>
   )
 }
